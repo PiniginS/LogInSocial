@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/vk_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Вк логин"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/fb_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Фб логин"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/ok_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ок логин"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/google_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Гугл+ логин"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10dp"/>
+</LinearLayout>
