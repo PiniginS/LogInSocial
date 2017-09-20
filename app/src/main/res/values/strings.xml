@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">LoginInSoical</string>
     <integer name="com_vk_sdk_AppId">6190766</integer>
+
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
 </resources>

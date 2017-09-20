@@ -17,11 +17,17 @@ public class LoginPage extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.login_page, container, false);
-        final Intent intent = new Intent(getActivity(), VKLoginActivity.class);
+        //final Intent intent = new Intent(getActivity(), VKLoginActivity.class);
         ((Button)view.findViewById(R.id.vk_login)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(intent);
+                startActivity(new Intent(getActivity(), VKLoginActivity.class));
+            }
+        });
+        ((Button)view.findViewById(R.id.google_login)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(), GPLoginActivity.class));
             }
         });
         return view;

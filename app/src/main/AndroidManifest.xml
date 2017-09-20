@@ -26,6 +26,8 @@
             android:name="com.vk.sdk.VKServiceActivity"
             android:label="ServiceActivity"
             android:theme="@style/VK.Transparent" />
+        <activity android:name=".GPLoginActivity"
+            android:label="Gp_login" />
     </application>
 
 </manifest>
